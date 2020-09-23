@@ -1,0 +1,99 @@
+.intercourse {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 75%;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+
+  .room_name {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+  }
+
+  .users {
+    width: 30%;
+    height: 100%;
+    overflow: auto;
+    padding: 0 10px 0 10px;
+    border-right: 1px solid lightgray;
+  }
+
+  .username {
+    padding: 5px 0 0 10px;
+    border: none;
+    height: 30px;
+    font-family: cursive;
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: white;
+    color: black;
+  }
+
+  .message_container {
+    width: 70%;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .message {
+    margin-bottom: 10px;
+  }
+
+  .messages {
+    width: 100%;
+    height: 70%;
+    padding: 0 25px 0 25px;
+    overflow: auto;
+  }
+
+  .message_send {
+    width: 100%;
+    height: 30%;
+    padding: 0 50px 0 50px;
+    border-top: 1px solid lightgray;
+
+    textarea {
+      width: 100%;
+      height: 150px;
+      resize: none;
+      margin-top: 20px;
+      border-radius: 8px;
+      padding: 5px 0 0 10px;
+      border: 1px solid lightgray;
+      outline: none;
+    }
+
+    button {
+      margin-top: 10px;
+      display: block;
+      width: 100px;
+      height: 40px;
+      border-radius: 4px;
+      background-color: rgb(0, 81, 255);
+      cursor: pointer;
+      color: white;
+      outline: none;
+      border: none;
+    }
+  }
+
+  .text {
+    margin-top: 5px;
+    background-color: rgb(89, 0, 255);
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .user {
+    margin-top: 15px;
+    font-size: 15px;
+    padding-top: 8px;
+    border-top: 1px solid lightgray;
+  }
+}

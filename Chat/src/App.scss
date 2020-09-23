@@ -1,0 +1,22 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .theme {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #6a7d99;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  input {
+    display: block;
+  }
+}

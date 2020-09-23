@@ -1,0 +1,39 @@
+.join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  input {
+    width: 400px;
+    height: 40px;
+    padding-left: 7px;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 5px;
+    margin: 15px 0 15px 0;
+
+    &:focus {
+      transition: 0.3s linear;
+      -webkit-box-shadow: 0 0 10px rgb(0, 68, 255);
+      box-shadow: 0 0 10px rgb(0, 68, 255);
+    }
+  }
+
+  button {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(42, 99, 255);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      transition: 0.3s linear;
+      -webkit-box-shadow: 0 0 10px rgb(0, 68, 255);
+      box-shadow: 0 0 10px rgb(0, 68, 255);
+    }
+  }
+}
