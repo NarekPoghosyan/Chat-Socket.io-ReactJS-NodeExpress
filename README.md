@@ -1,5 +1,10 @@
 # Simple chat application.
 
+1. npm install in path Chat
+2. npm install in path Server
+3. npm run dev in path Server
+4. npm run start in path Chat
+
 Users enter the room and chat. The contact between the sockets and the receipt of the message is instant. Together with the database, I used the Map collection. I send the date to the server and save it in the map collection. Sockets are connected. And when the user is disconnected, everyone knows about it and the data is deleted in the database. At any time, someone who enters the room can see past messages. I used axios and hook reducer.
 
 Еach room has its own id, its own message, and other users do not receive a message in another room.
